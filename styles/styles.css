@@ -1,0 +1,21 @@
+html {
+    background-color: #414a4c;
+}
+
+body {
+    width: 75%;
+    margin: 0 auto;
+    background-color: rgb(235, 234, 234);
+}
+
+#logo {
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.main_sections {
+    padding: 10px;
+}
