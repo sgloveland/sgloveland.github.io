@@ -1,11 +1,15 @@
 html {
-    background-color: #414a4c;
+    background-color: #1e1f26;
 }
 
 body {
-    width: 75%;
+    width: 80%;
     margin: 0 auto;
-    background-color: rgb(235, 234, 234);
+    background-color: #d0e1f9;
+}
+
+a {
+    text-decoration: none;
 }
 
 #logo {
@@ -18,4 +22,33 @@ body {
 
 .main_sections {
     padding: 10px;
+}
+
+.button_container {
+    display: flex;
+    margin: auto;
+    width: 75%;
+    justify-content: space-evenly;
+}
+
+.button {
+    background-color: #283655;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#package_container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.package {
+    background-color: #4d648d;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    color: white;
 }
