@@ -3,7 +3,7 @@ const next = document.querySelector(".next")
 const images = document.querySelector(".gallery")
 
 let currImage = 1
-const maxImage = 3
+const maxImage = 4
 
 prev.addEventListener("click", () => {
     --currImage
